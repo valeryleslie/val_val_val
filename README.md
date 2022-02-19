@@ -15,8 +15,10 @@ by hash, users are able to search by the county codes (comprised of its initials
 through the binary search. Other than that, display options of country rankings
 are available through population numbers, number of deaths, and number of cases.
 
+A demonstration test plan can be seen through 'Demonstration Test Plan.pdf).
+
 The structure of data loading, displaying, and search manager is as follows:
-- Read Input File (inputfile.txt)
+- Read Input File (inputFile.txt through fileIO.cpp)
     - Build a County-based Class Object (County.h, County.cpp)
     - Build Binary Search Tree (BinaryNode.h, BinarySearchTree.h, BinaryTree.h)
         - BST data insert
@@ -26,6 +28,6 @@ The structure of data loading, displaying, and search manager is as follows:
   - Display all Bay Area Data Alphabetically
     - Binary Search Tree Display Manager (indented or ranking-wise display)
   - Search by County or Code
-  - Save to Output File (e.g. outputfile.txt)
+  - Save to Output File (e.g. outputFile.txt and output-TESTDRIVE.txt)
   - County Guides (showing users county codes)
   - Exit Program
