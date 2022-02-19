@@ -1,4 +1,3 @@
-# val_val_val
 COVID - Bay Area Tracker June 2020 (C++)
 
 The following project is meant as a practice of loading web-based data and applying the C++
