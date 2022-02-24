@@ -8,10 +8,7 @@ Alameda (ALM), Contra Costa (CC), Marin (MN), Napa (NP), San Mateo (SM), Santa C
 Solano (SL), Sonoma (SN), and San Francisco (SF).
 
 A binary search tree would allow the insert, search, and deletion of data under user request.
-The hash table is a method towards inserting, deleting, and searching the data. The difference between
-these two would be to have user's be able to search through the data using different sets of keys,
-by hash, users are able to search by the county codes (comprised of its initials and dates),
-through the binary search. Other than that, display options of country rankings
+This is a method towards easily allowing users and the program itself to traverse to data and allow for inserting, deleting, and searching of the data. Other than that, display options of country rankings
 are available through population numbers, number of deaths, and number of cases.
 
 A demonstration test plan can be seen through 'Demonstration Test Plan.pdf).
